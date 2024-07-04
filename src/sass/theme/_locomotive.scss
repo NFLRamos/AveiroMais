@@ -1,0 +1,32 @@
+/* LOCOMOTIVE */
+.no-transform {
+  transform: none !important;
+}
+
+html.has-scroll-smooth {
+  overflow: hidden;
+}
+
+html.has-scroll-dragging {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.has-scroll-smooth body {
+  overflow: hidden;
+}
+
+.has-scroll-smooth [data-scroll-container] {
+  min-height: 100vh;
+}
+ 
+div[data-scroll] {
+  opacity: 0;
+  transition: opacity ease 0.7s;
+}
+
+div.is-inview {
+  opacity: 1;
+}

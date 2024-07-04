@@ -1,0 +1,51 @@
+.blog-post{
+    h3{
+        font-size: 40px;
+        font-weight: 600;
+    }
+    p{
+        font-size:18px;
+    }
+    small{
+        color:$color-main;
+        font-size:12px;
+    }
+}
+
+
+
+.caixa_pesquisa{
+    border: 1px solid #e9ecef;
+    border-radius: 5px;
+    padding: 30px;
+    h5{
+        font-weight: bold;
+        font-size: 30px;
+    }
+}
+.widget-title{
+    
+    h6{
+        font-size:30px;
+        font-weight: bold;
+    }
+}
+.categories_artigos{
+    .dropdown-item:hover{
+        color:$color-main;
+        background-color:transparent;
+        text-decoration: none;
+    }
+    ul{
+        list-style: none;
+        a{
+            font-weight: 500;
+            font-size: 18px;
+            border:unset;
+            &:hover{
+                text-decoration: none;
+                color: $color-main;
+            }
+        }
+    }
+}

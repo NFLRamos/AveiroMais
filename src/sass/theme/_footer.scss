@@ -1,0 +1,37 @@
+.footer{width: 100%; display: flex; flex-wrap: wrap; background: $color-third; color: #fff;
+	.footer-bar{width: 100%; display: flex; flex-wrap: wrap; align-items: center; padding: 40px 0; margin-bottom: 60px; border-bottom: 1px solid rgba(255,255,255,0.2);
+		.logo{display: inline-block;
+			img{height: 58px;}}
+		.phone-box{margin-left: auto; display: flex; align-items: center;
+			span{ display: inline-block; opacity: 0.5; font-weight: 600;}
+			figure{margin: 0 15px; display: inline-block;
+				img{display: inline-block;}}
+			a{display: inline-block; color: #fff; font-size: 30px;}}}
+	.newsletter-box{display: flex; flex-wrap: wrap; width: 50%; margin-bottom: 80px;
+		form{width: 100%; display: flex; flex-wrap: wrap; background: rgba(255,255,255,0.10); overflow: hidden; border-radius: 6px;
+			input[type="text"]{flex: auto; height: 78px; padding: 0 30px; background: none; border: none; color: #fff;}
+			input[type="text"]::-webkit-input-placeholder {color: #fff;}
+			input[type="text"]::-moz-placeholder {color: #fff;}
+			input[type="text"]:-ms-input-placeholder {color: #fff;}
+			input[type="text"]:-moz-placeholder {color: #fff;}
+			input[type="submit"]{height: 78px; background: $color-main; font-size: 15px; font-weight: 600; color: #fff; border:none; padding: 0 40px; margin-left: auto;}}}
+	.social-media{display: flex; flex-wrap: wrap; margin-left: auto; margin-bottom: 80px; padding: 0;
+		li{display: inline-block; margin-right: 40px;
+			&:last-child{margin-right: 0;}
+			a{color: #fff; display: flex; align-items: center;
+				&:hover {text-decoration: none;
+					span{opacity: 1;}}
+				i{font-size: 20px; display: inline-block; margin-right: 6px;}
+				span{display: inline-block; font-weight: 600; font-size: 15px; opacity: 0.5; @include transition;}}}}
+	.footer-widget{width: 100%; display: flex; flex-wrap: wrap; margin-bottom: 50px;
+		.widget-title{width: 100%; display: flex; flex-wrap: wrap; align-items: center; margin-bottom: 20px; font-weight: 600;
+			&:after{content: ""; width: 6px; height: 6px; background: $color-main; border-radius: 50%; margin-left: 10px;}}
+		strong{font-weight: 600;}
+		p a{ color: #fff; font-weight: 600; opacity: 0.5; @include transition;
+			&:hover{opacity: 1; text-decoration: none;}}}
+	.bottom-bar{width: 100%; display: flex; flex-wrap: wrap; background: rgba(0,0,0,0.2); padding: 35px 0; font-size: 14px;
+		.container{display: flex;}
+		.copyright{display: inline-block;}
+		.creation{display: inline-block; margin-left: auto;
+			a{display: inline-block; color: #fff; text-decoration: underline; color: #fff;
+				&:hover{text-decoration: none;}}}}}
